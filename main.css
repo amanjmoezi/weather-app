@@ -53,17 +53,9 @@ body{
     
     background:url("https://img.icons8.com/fluency/200/000000/full-moon.png");
 }
-.weather-box.rain:after
-{
-    background:url("https://img.icons8.com/fluency/200/000000/rain.png");
-}
 .weather-box.night
 {
     background: linear-gradient(45deg,#2A62F6 0% , #A37ADE 100%);
-}
-.weather-box.rain
-{
-    background: linear-gradient(45deg,#05BFA5 0% , #6BEFA3 100%);
 }
 /* *************************************************** */
 .weather-box .left
