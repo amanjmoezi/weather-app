@@ -1,0 +1,1 @@
+#whether app only javascript
