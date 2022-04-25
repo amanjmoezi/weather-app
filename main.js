@@ -15,6 +15,11 @@ fetch(url)
     statusElement.innerText = weather[0].main;
     timeElement.innerText = time;
     countryElement.innerText = `📍 ${sys.country},${name}`;
+   
     tempElement.innerText = `${temp}°`
+    if (d.getHours()>=12) {
+        document.querySelector(".weather-box").classList.remove("night");
+        document.querySelector(".weather-box").classList.add("san");
+    }
     
 })
